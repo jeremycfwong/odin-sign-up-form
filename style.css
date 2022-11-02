@@ -24,7 +24,39 @@ html body {
 
 .credits{
     border: 1px white solid;
-    margin-top: 96.5vh;
+    margin-top: 97.5vh;
     color: white;
     text-align: center;
+}
+
+.info-container {
+    background-color: rgb(235, 235, 235);
+    width: 70%;
+}
+
+.description{
+    margin-top: 10%;
+}
+
+p {
+    margin-left:3rem;
+    margin-right: 20rem;
+    font-size: 28px;
+}
+
+form h2,
+form fieldset{
+    margin-left: 3rem;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.white-container {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 1px rgb(185, 185, 185);
 }
