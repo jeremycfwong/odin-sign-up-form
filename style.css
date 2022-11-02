@@ -49,14 +49,36 @@ form fieldset{
     margin-left: 3rem;
 }
 
+h2 {
+    padding-top: 1.5%;
+}
+
 fieldset {
     border: none;
     padding: 0;
     margin-top: 2rem;
+    display: flex;
+    width: 60%;
 }
 
 .white-container {
+    margin-top: 5%;
+    padding-bottom: 5%;
     width: 100%;
     background-color: white;
     box-shadow: 0px 1px rgb(185, 185, 185);
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+}
+
+input {
+    width: 20rem;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    border-radius: 4px;
+    border: 1px solid grey;
 }
