@@ -102,7 +102,7 @@ input {
     -webkit-appearance: none;
     -moz-appearance: textfield;
     border-radius: 4px;
-    border: 1px solid grey;
+    border: 1px solid #E5E7EB;
 }
 
 input:focus {
@@ -116,7 +116,7 @@ button {
     margin-bottom: 1vh;
     background-color: rgb(95, 119, 79);
     color: white;
-    padding: 1rem 3rem;
+    padding: 1rem 3.5rem;
     font-size: 18px;
     font-weight: bold;
     border-radius: 12px;
