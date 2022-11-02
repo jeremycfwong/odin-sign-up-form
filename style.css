@@ -1,0 +1,30 @@
+html body {
+    margin: 0 0 0 0;
+}
+
+.container{
+    margin: 0 0;
+    width: 100vw;
+    height: 100vh;
+    max-width:100%;
+    display: flex;
+}
+
+.left {
+    width: 30%;
+    height: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+
+}
+
+.credits{
+    border: 1px white solid;
+    margin-top: 96.5vh;
+    color: white;
+    text-align: center;
+}
